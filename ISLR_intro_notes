@@ -1,0 +1,29 @@
+Statistical learning refers to a vast set of tools for understanding data. These tools can be classified as supervised or unsupervised.
+
+Supervised statistical learning involves building a statistical model for predicting, or estimating, an output based on one or more inputs.
+With unsupervised statistical learning, there are inputs but no supervising output; nevertheless we can learn relationships and structure from such data. 
+
+1.The Wage data involves predicting a continuous or quantitative output value. This is often referred to as a regression problem.
+2.In certain cases we may instead wish to predict a non-numerical value—that is, a categorical or qualitative output. This is known as a classification problem
+
+3.For example, in a marketing setting, we might have demographic
+information for a number of current or potential customers. We may wish to
+understand which types of customers are similar to each other by grouping
+individuals according to their observed characteristics. This is known as a
+clustering problem. Unlike in the previous examples, here we are not trying
+to predict an output variable.
+
+中英对照：
+Supervised监督式学习
+unsupervised非监督式学习
+regression problem分类模型 (classification model)一种模型，能够输出连续的值（通常为浮点值）
+classification problem回归模型 (regression model)分类模型输出离散值
+clustering problem聚类 将关联的样本分成一组，一般用于非监督式学习。在所有样本均分组完毕后，相关人员便可选择性地为每个聚类赋予含义。
+
+Notations
+n to represent the number of distinct data points, or observations, in our sample.
+p denote the number of variables that are available for use in making predictions.
+let xij represent the value of the jth variable for the ith observation, where i = 1, 2,...,n and j = 1, 2,...,p.
+i will be used to index the samples or observations (from 1 to n) and
+j will be used to index the variables (from 1 to p).
+
